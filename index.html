@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phone</title>
+	<!-- <script type="text/javascript" src="js/sw.js"></script> -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src = "js/jssip.js" type="text/javascript"></script>
+	<script src="js/jssip.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="manifest" href="manifest.json">
+	
+</head>
+<body>
+	
+	<!-- <audio id="localStream" autoplay="true"></audio> -->
+	<audio id="remoteAudio" autoplay="true"></audio>
+	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+
+	<!-- <div >localStream</div> -->
+
+	<div class ="container">
+
+			<div class = "signals">
+				<i class="fa fa-signal" id="sig" aria-hidden="true"></i>
+			</div>
+
+			<div id="reg"></div>
+			<div id = "cause"></div>
+			<div class="Duration"><label id="minute">00</label>:<label id="milisec">00</label></div>
+
+				<div class="pad">
+					<div id = "calling"></div>
+				  	<div id="output"></div>
+
+				  <div class="row">
+						<div class="digit" id="one">1
+						</div>
+					    <div class="digit" id="two">2
+					    <div class="sub">ABC</div>
+					   	</div>
+					   	<div class="digit" id="three">3
+					    <div class="sub">DEF</div>
+					    </div>
+				  </div>
+
+				  <div class="row">
+					    <div class="digit" id="four">4
+					    <div class="sub">GHI</div>
+					    </div>
+					    <div class="digit" id="five">5
+					    <div class="sub">JKL</div>
+					    </div>
+					    <div class="digit" id="six">6
+					    <div class="sub">MNO</div>
+					    </div>
+				  </div>
+
+				  <div class="row">
+					    <div class="digit" id="seven">7
+					    <div class="sub">PQRS</div>
+					    </div>
+					    <div class="digit" id="eight">8
+					    <div class="sub">TUV</div>
+					    </div>
+					    <div class="digit" id="nine">9
+					    <div class="sub">WXYZ</div>
+					    </div>
+				  </div>
+
+				  <div class="row">
+					    <div class="digit" id="*">*
+					    </div>
+					    <div class="digit" id="0">0
+					    </div>
+					    <div class="digit" id="#">#
+					    </div>
+				  </div>
+
+		  <div class="botrow">
+			  	<i class="fa fa-moon-o dig" id="offline" aria-hidden="true"></i>
+			    <div id="call" onClick= "makeCall('sip:'+document.getElementById('output').innerText+'@10.0.3.32')">
+			    	<i class="fa fa-phone" aria-hidden="true"></i>
+				</div>
+				<i class="fa fa-trash-o dig" aria-hidden="true"></i>
+			    <button id="answr" style="margin-right: 40px; width: 80px; height: 28px">Answer<i class="fas fa-phone" style="color: #66bb6a"></i></button>
+			    <i id="hang" class="fas fa-phone-slash" aria-hidden="true"></i>
+			    
+		  </div>
+	
+</div>
+	<div>	</div>
+	<script src="js/server.js" type="text/javascript"></script>
+	<script src="js/dial.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+
+
+body {
+  background-color: #4f446154;
+  background-image: url(iphone.jpeg);
+}
+.regi{
+    position: relative;
+   top: 50px;
+}
+#reg{
+  position: relative;
+  top: 30px;
+}
+#cause{
+  position: relative;
+  top: 45px;
+}
+.Duration{
+  position: relative;
+  top: 55px;
+}
+#conta
+{
+  border-radius: 10px;
+  width: 500px;
+  height: 700px;
+  margin: 30px auto;
+  text-align: center;
+  background-image: url(tile.jpeg);
+}
+.container{
+  background-color: teal;
+  border-radius: 10px;
+  width: 500px;
+  height: 700px;
+  margin: 30px auto;
+  text-align: center;
+  background-image: url(tile.jpeg);
+}
+.row {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  font-family: 'Exo';
+}
+
+.digit,
+.dig {
+  float: left;
+  padding: 10px 30px;
+  width: 30px;
+  font-size: 2rem;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.sub {
+  font-size: 0.8rem;
+  color: blue;
+}
+.plc{
+  position: relative;
+  top: 140px;
+  border-radius: 5px;
+}
+#card,
+.pad {
+  position: relative;
+  top: 70px;
+  border-radius: 15px;
+  background-color: white;
+  width: 350px;
+  padding: 20px;
+  margin: 30px auto;
+  height: 480px;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#output {
+  border-radius: 20px;
+  font-family: "Exo";
+  font-size: 2rem;
+  height: 60px;
+  font-weight: bold;
+  background-color: $slightGray;
+}
+#hang{
+  background-color: red;
+  padding: 7px 35px;
+  margin: 10px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+#call {
+  display: inline-block;
+  background-color: #66bb6a;
+  padding: 4px 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
+  border-radius: 10%;
+
+}
+.signals{
+  position: relative;
+  top: 20px;
+}
+.botrow {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  font-family: 'Exo';
+}
+
+.digit:active,
+.dig:active {
+  background-color: #e6e6e6;
+}
+
+#call:hover {
+  background-color: #81c784;
+}
+
+.dig {
+  color:black;
+  background-color: white;
+  float: left;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 30px;
+  cursor: pointer;
+}
